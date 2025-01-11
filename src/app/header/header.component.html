@@ -1,0 +1,6 @@
+<mat-toolbar class="headercontainer" color="primary">
+  <div>StackoverFlow</div>
+  <div>
+    <button *ngIf="userservice.user !=undefined" (click)="logout()" mat-button>Çıkış Yap</button>
+  </div>
+</mat-toolbar>

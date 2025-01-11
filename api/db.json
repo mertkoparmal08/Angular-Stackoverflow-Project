@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "d1c2",
+      "email": "mertkop@gmail.com",
+      "username": "mertkop1122",
+      "password": "mert123456"
+    },
+    {
+      "id": "d17c",
+      "email": "emrekop@gmail.com",
+      "username": "emrekop1122",
+      "password": "emre123456"
+    },
+    {
+      "id": "d18c",
+      "email": "aliveli@gmail.com",
+      "username": "aliveveli1234",
+      "password": "ali123456"
+    }
+  ],
+  "questions": [
+    {
+      "id": "e090",
+      "username": "mertkop1122",
+      "question": "Java mı C++ mı?",
+      "solution": [],
+      "solutions": [
+        {
+          "username": "mertkop1122",
+          "solution": "Java",
+          "plus": [
+            "d1c2"
+          ],
+          "minus": []
+        },
+        {
+          "username": "emrekop1122",
+          "solution": "Bence C++",
+          "plus": [],
+          "minus": [
+            "d1c2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d18c",
+      "username": "aliveveli1234",
+      "question": "Bir yapay zeka kendinden üst bir yapay zeka yapabilir mi?",
+      "solution": [],
+      "solutions": [
+        {
+          "username": "mertkop1122",
+          "solution": "Neden Olmasın",
+          "plus": [
+            "d1c2"
+          ],
+          "minus": []
+        },
+        {
+          "username": "emrekop1122",
+          "solution": "Bence yapamaz ya",
+          "plus": [],
+          "minus": [
+            "d1c2"
+          ]
+        }
+      ]
+    }
+  ]
+}

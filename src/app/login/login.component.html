@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="form-container">
+        <div class="title">Giriş Yapın</div>
+        <form [formGroup]="loginForm">
+            <mat-form-field appearance="outline">
+                <mat-label>E-mailinizi Giriniz</mat-label>
+                <input matInput formControlName="email"/>
+                <mat-error>
+                    <p *ngIf="f['email'].errors && f['email'].errors['required']"><span class="material-icons">report</span>E-mail Zorunludur</p>
+                    <p *ngIf="f['email'].errors && f['email'].errors['email']"><span class="material-icons">report</span>E-mail Formatı Geçersiz</p>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Şifrenizi Giriniz</mat-label>
+                <input type="password" matInput formControlName="password"/>
+                <mat-error>
+                    <p *ngIf="f['password'].errors && f['password'].errors['required']"><span class="material-icons">report</span>Şifre Zorunludur</p>
+                    <p *ngIf="f['password'].errors && f['password'].errors['minlength']"><span class="material-icons">report</span>Şifre Çok Kısa</p>
+                </mat-error>
+            </mat-form-field>
+        </form>
+        <div class="buttons-container">
+            <button [disabled]="loginForm.invalid" (click)="login()" mat-raised-button class="login-button">
+                Giriş Yap
+            </button>
+            <p><br>veya</p>
+            <button mat-flat-button routerLink="/createuser">Hesap Oluştur</button>
+        </div>
+    </div>
+</div>

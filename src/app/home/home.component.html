@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="content-wrapper">
+      <mat-form-field appearance="fill">
+        <textarea [(ngModel)]="question" matInput cdkTextareaAutosize cdkAutosizeMinRows="5" placeholder="Sorunuzu sorun..."></textarea>
+      </mat-form-field>
+      <div class="new-post-actions-container">
+        <button (click)="post()" [disabled]="question.trim() == ''" mat-flat-button class="post-button">Sor</button>
+      </div>
+  
+      <mat-card *ngFor="let item of questionList" [routerLink]="'/show-solutions/'+item.id" class="question-card">
+        <mat-card-content>
+          <p class="username">{{item.username}}</p>
+          <p>
+            {{item.question}}
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  
