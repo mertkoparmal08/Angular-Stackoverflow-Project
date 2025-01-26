@@ -12,20 +12,20 @@
 * Burada mail ve parola değerleri kontrol edilip, validasyon uyarıları ile hata mesajı verilmektedir.
 * Eğer değer girilmemiş veya format yanlış ise giriş yap butonu deaktif pozisyondadır.
 * Eğer kullanıcı hesabı yoksa hesap oluştur butonu ile hesap oluşturma sayfasına ulaşılması sağlanmıştır.
-![My Image](1.JPG)
-![My Image](2.JPG)
+![My Image](1.PNG)
+![My Image](2.PNG)
 #
 * Hesap oluşturma sayfasında da yine giriş yapma ekranındaki validasyonlar ve buton aktivitesi eklenmiştir.
 
-![My Image](3.JPG)
-![My Image](4.JPG)
+![My Image](3.PNG)
+![My Image](4.PNG)
 
 * Başarılı bir giriş yapma eyleminin ardından bir ana sayfamız bulunmaktadır.
 * Bu anasayfadaki işlemler resimdeki gibi tasarlanmıştır.
 * Eğer soru sorma ekranı boş ise "Sor" butonu yine deaktif pozisyondadır.
 
-![My Image](5.JPG)
-![My Image](6.JPG)
+![My Image](5.PNG)
+![My Image](6.PNG)
 #
 * Sıralanan sorulardan birine cevap vermek için soruya ulaştığımız anda yine soru sorma sayfasındaki özellikler bu sayfaya da eklenmiştir.
 ![My Image](7.JPG)
