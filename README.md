@@ -19,7 +19,7 @@
 
 ![My Image](3.PNG)
 ![My Image](4.PNG)
-
+#
 * Başarılı bir giriş yapma eyleminin ardından bir ana sayfamız bulunmaktadır.
 * Bu anasayfadaki işlemler resimdeki gibi tasarlanmıştır.
 * Eğer soru sorma ekranı boş ise "Sor" butonu yine deaktif pozisyondadır.
@@ -28,5 +28,5 @@
 ![My Image](6.PNG)
 #
 * Sıralanan sorulardan birine cevap vermek için soruya ulaştığımız anda yine soru sorma sayfasındaki özellikler bu sayfaya da eklenmiştir.
-![My Image](7.JPG)
-![My Image](8.JPG)
+![My Image](7.PNG)
+![My Image](8.PNG)
