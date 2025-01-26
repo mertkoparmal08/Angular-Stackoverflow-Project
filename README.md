@@ -1,59 +1,32 @@
-# Stackoverflow
+# Angular-Stackoverflow-Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+- Bu proje, Angular kullanılarak tasarlanmıştır.
+- Proje, Stackoverflow sitesini baz alınarak üretilmeye çalışılmıştır.
+#
+* Projede temel Angular yapılarından olan Reactive Forms, Directives, Routing ve Service yapıları kullanılmıştır.
+* Veriler serviste tutulup, diğer componentlerde kullanılmıştır.
+* Component geçişleri, Routing ile sağlanmıştır.
+* Header oluşturulup, bütün componentlerde kullanımı sağlanmıştır.
+#
+* Ana Sayfa bizi login ekranıyla buluşturmaktadır.
+* Burada mail ve parola değerleri kontrol edilip, validasyon uyarıları ile hata mesajı verilmektedir.
+* Eğer değer girilmemiş veya format yanlış ise giriş yap butonu deaktif pozisyondadır.
+* Eğer kullanıcı hesabı yoksa hesap oluştur butonu ile hesap oluşturma sayfasına ulaşılması sağlanmıştır.
+![My Image](1.JPG)
+![My Image](2.JPG)
+#
+* Hesap oluşturma sayfasında da yine giriş yapma ekranındaki validasyonlar ve buton aktivitesi eklenmiştir.
 
-## Development server
+![My Image](3.JPG)
+![My Image](4.JPG)
 
-To start a local development server, run:
+* Başarılı bir giriş yapma eyleminin ardından bir ana sayfamız bulunmaktadır.
+* Bu anasayfadaki işlemler resimdeki gibi tasarlanmıştır.
+* Eğer soru sorma ekranı boş ise "Sor" butonu yine deaktif pozisyondadır.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![My Image](5.JPG)
+![My Image](6.JPG)
+#
+* Sıralanan sorulardan birine cevap vermek için soruya ulaştığımız anda yine soru sorma sayfasındaki özellikler bu sayfaya da eklenmiştir.
+![My Image](7.JPG)
+![My Image](8.JPG)
